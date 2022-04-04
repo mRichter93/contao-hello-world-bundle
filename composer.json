@@ -6,7 +6,7 @@
     "license": "LGPL-3.0-or-later",
     "authors": [{
             "name": "Marcel Richter",
-            "homepage": "https://github.com/m.richter93"
+            "homepage": "https://github.com/mRichter93"
         },
         {
             "name": "Contao Community",
@@ -18,7 +18,7 @@
         "contao/core-bundle": "^4.9",
         "symfony/config": "^4.4 || ^5.1",
         "symfony/dependency-injection": "^4.4 || ^5.1",
-        "symfony/http-kernel": "^4.4 || ^5.1"
+        "symfony/http-kernel": "^4.4 || ^5.1",
     },
     "conflict": {
         "contao/manager-plugin": "<2.0 || >=3.0"
@@ -30,7 +30,7 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "SolidConcept\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Solidconcept\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
