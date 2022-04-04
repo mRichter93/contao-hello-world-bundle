@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Solidconcept\\ContaoHelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Solidconcept\\ContaoHelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "support": {
