@@ -1,13 +1,12 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "solidconcept/contao-hello-world-bundle",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
+    "description": "Hello World extension for Contao Open Source CMS",
     "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
+    "authors": [{
+            "name": "Marcel Richter",
+            "homepage": "https://github.com/m.richter93"
         },
         {
             "name": "Contao Community",
@@ -31,7 +30,7 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "SolidConcept\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
