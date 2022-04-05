@@ -4,7 +4,7 @@ namespace Solidconcept\ContaoHelloWorldBundle\DependencyInjection;
 
 use ReflectionExtension;
 use Symfony\Component\Config\FileLocator;
-use Symfony\Component\DependencyInjection\containerBuilder;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
@@ -16,6 +16,6 @@ class ContaoHelloWorldExtension extends Extension
             $container,
             new FileLocator(__DIR__.'/../Resources/config')
         );
-        $loader->load('service.yml');
+        $loader->load('services.yml');
     }
 }
