@@ -1,12 +1,12 @@
 <?php
 
-namespace SolidConcept\ContaoHelloWorldBundle\ContaoManager;
+namespace Solidconcept\ContaoHelloWorldBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use SolidConcept\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
+use Solidconcept\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
 
 class Plugin implements BundlePluginInterface
 {
