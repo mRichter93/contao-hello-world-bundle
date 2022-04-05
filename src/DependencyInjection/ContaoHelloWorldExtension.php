@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\containerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoHelloWorldExtension extends ReflectionExtension
+class ContaoHelloWorldExtension extends Extension
 {
     public function load(array $mergedConfig, ContainerBuilder $container)
     {
